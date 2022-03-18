@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "songs-seed": "node src/utils/seeds/songs.seed.js",
+    "singers-seed": "node src/utils/seeds/singers.seed.js"
   },
   "keywords": [
     "Node",
