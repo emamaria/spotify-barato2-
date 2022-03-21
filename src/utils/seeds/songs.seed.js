@@ -24,7 +24,33 @@ const songs = [
    year: "2005",
    style: "Pop rock"
 
-   }
+   },
+   {   
+    name: "Como Camarón",
+    year: "1999",
+    style: "Pop-Rock"
+ 
+    },
+    {   
+    name: "I want it that way",
+    year: "1999",
+    style: "R&B"
+     
+    },
+    {   
+    name: "Contigo",
+    year: "2002",
+    style: "Pop"
+         
+    },
+    {   
+    name: "New Rules",
+    year: "2018",
+    style: "Pop"
+             
+    }
+        
+    
 
 ]
 
