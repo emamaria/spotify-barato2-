@@ -22,8 +22,6 @@ configCloudinary();
 
 
 
-// const documentation = require("./src/utils/documentation/api.json");
-
 
 
 app.use((req, res, next) => {
@@ -59,9 +57,7 @@ app.use('/api/songs', SongRoutes);
 
 
 
-// app.use('/api', (req, res, next) => {
-//     return res.json(documentation);
-// });
+
 
 
 app.use('*', (req, res, next) => {
